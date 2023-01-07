@@ -51,35 +51,67 @@
 .plans .plans-items{
     display: flex;
     justify-content: center;
+    font-size: 30px;
+    
 }
 .plans-description{
     margin-right: 30px;
     text-align: center;
+
+    
+}
+.plans-items p{
+    
+    font-size: 22px;
+    color: rgb(192, 181, 181);
+    
 }
 
-
-.plans-items p{
-    color: rgb(192, 181, 181);
+/* gradient image style */
+.gradient-image{
+    background-image: url("../media/images/gradient2.png"),url("../media/images/watch.png");
+    background-repeat: no-repeat;
+    margin: 50px 100px 50px 200px;
+    background-size: contain;
+    height:300px;
+    width: 910px;
+}
+.gradient-image-content{
+    font-size: 45px;
+    color: aliceblue;
+    padding:1px 0 15px 60px;
 }
 
 .footer{
-    display: flex;
+    
     color: aliceblue;
     background-color: black;
-    height:400px;
+    height:500px;
     width: auto;
-    align-items: center;
+    
+    
 }
+.footer-content{
+    display: flex;
+    padding: 100px 0 0 200px;
+}
+
+.content-2{
+    padding-left: 250px;
+    
+}
+
 .form-input{
     height: 50px;
     width: 300px;
     color: aliceblue;
     background-color: black;
-    border: none snow;
-    border-radius: 4px;
-    margin-top: 5px;
+    border-radius: 5px;
+    margin-top: 10px;
+   
 }
-.form-button{
+
+.primary-button{
     height: 45px;
     width: 150px;
     background-color:white;
