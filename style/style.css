@@ -1,0 +1,70 @@
+.header-items{
+    text-align: right;
+    background-image: url('../media/banner/banner2.png');
+
+}
+header .header-items{
+    padding: 120px 120px 120px 0;
+}
+.sub-heading{
+    font-size: 35px;
+}
+.heading-description{
+    color: black;
+}
+.button{
+    height: 45px;
+    width: 150px;
+    background-color:rgb(247, 131, 49);
+    font-size: 18px;
+    border: none;
+    border-radius: 4px;
+    color: aliceblue;
+}
+/* middle part styles */
+.middle{
+    display: flex;
+    height: auto;
+    width: 100%;
+    background-color: antiquewhite;
+}
+.plans .plans-items{
+    display: flex;
+    justify-content: center;
+}
+.plans-description{
+    margin-right: 30px;
+    text-align: center;
+}
+
+
+.plans-items p{
+    color: rgb(192, 181, 181);
+}
+
+.footer{
+    display: flex;
+    color: aliceblue;
+    background-color: black;
+    height:400px;
+    width: auto;
+    align-items: center;
+}
+.form-input{
+    height: 50px;
+    width: 300px;
+    color: aliceblue;
+    background-color: black;
+    border: none snow;
+    border-radius: 4px;
+    margin-top: 5px;
+}
+.form-button{
+    height: 45px;
+    width: 150px;
+    background-color:white;
+    font-size: 18px;
+    border: none;
+    border-radius: 4px;
+    color: rgba(251, 96, 29, 0.934)
+}
