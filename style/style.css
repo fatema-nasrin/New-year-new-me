@@ -121,10 +121,3 @@
     color: rgba(251, 96, 29, 0.934)
 }
 
-
-.header{
-    grid-area: header;
-}
-.middle{
-    grid-area: middle;
-}
